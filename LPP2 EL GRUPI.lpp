@@ -1,0 +1,36 @@
+     Entero cantidadpersonas,ciclo,generopersona
+	 INICIO
+	 
+	   escriba ("cuantas encuestas va realizar")
+	   lea cantidadpersonas
+
+        para ciclo<-1 hasta cantidadpersonas haga
+	   
+	   escriba ("que le gusta hacer ")
+	   llamar nueva_linea
+	   
+	   escriba ("1 cine ")
+    	llamar nueva_linea
+	
+        escriba("2 comer ")
+        llamar nueva_linea
+     
+        escriba("3 realizar deportes ")
+        llamar nueva_linea
+    
+        escriba("4 GYM ")
+        llamar nueva_linea
+    
+        escriba ("5 Hablar ")
+        llamar nueva_linea
+    
+        escriba ("6 cena romantica ")
+        llamar nueva_linea 
+        
+        fin para
+        
+        FIN 
+        
+    
+    
+    

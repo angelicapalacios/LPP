@@ -1,0 +1,20 @@
+
+entero edad 
+
+
+inicio 
+
+
+     Escriba ("¿cual es su edad? ")
+     lea edad 
+     
+     
+     si (edad>=18)entonces 
+     escriba("usted es mayor de edad ")
+     
+     sino 
+     escriba("usted es un menor")
+     
+     Fin si 
+     
+     Fin 

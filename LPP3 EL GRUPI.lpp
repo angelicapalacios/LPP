@@ -1,0 +1,26 @@
+ENTERO edad, cantidadMayores,cantidadMenores, ciclo, personas 
+
+
+INICIO
+
+    escriba("cuantas personas a evaluar")
+    lea personas
+    cantidadMayores<-0
+    cantidadMenores<-0
+    
+    para ciclo<-1 hasta personas haga
+     escriba ("cual es su edad ")
+     lea edad 
+     si (edad>= 18)entonces
+         cantidadMayores<-cantidadMayores  +1
+       
+     sino
+         cantidadMenores<-cantidadMenores -1
+         fin si
+         fin para
+         
+   escriba (" el numero personas mayores son: "),cantidadMayores 
+   llamar nueva_linea
+   escriba (" el numero de personas menores son: "),cantidadMenores      
+    
+    FIN

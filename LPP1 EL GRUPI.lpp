@@ -1,0 +1,12 @@
+entero ciclo
+
+
+INICIO
+
+para ciclo<-1 hasta 1000 haga
+escriba ("numero "),ciclo
+  llamar nueva_linea
+  
+ fin para
+ 
+ FIN

@@ -1,0 +1,122 @@
+cadena[50] cantidadpersonas,cantidadmujer,cantidadhombre,opcion,
+
+
+	 INICIO
+	 
+	   escriba ("cuantas encuestas va realizar")
+	   lea cantidadpersonas
+
+        cantidadhombre<-0
+        cantidadmujer<-0
+        llamar nueva_linea
+
+        para i<- hasta cantidadpersonas haga
+
+        escriba (“¿que le gusta hacer?: ")
+	  llamar nueva_linea
+	   
+	  escriba ("1. cine ")
+    	  llamar nueva_linea
+	
+        escriba("2. comer ")
+        llamar nueva_linea
+     
+        escriba("3. realizar deportes ")
+        llamar nueva_linea
+    
+        escriba("4. GYM ")
+        llamar nueva_linea
+    
+        escriba ("5. Hablar ")
+        llamar nueva_linea
+    
+        escriba ("6. cena romantica ")
+        llamar nueva_linea 
+        Escriba("Marca tu gusto favorito: ")
+        lea opcion
+        llamar nueva_linea
+        escriba ("genero: h:hombre: m:mujer: ")
+        lea genero 
+        llamar nueva_linea 
+        
+        si(genero="h")entonces
+        cantidadhombre<-cantidadhombre+1
+        
+        fin si 
+        
+        si(genero="m")entonces
+        cantidadmujer<-cantidadmujer+1
+        
+        fin si 
+        
+        fin para 
+        
+        escriba ("de enciuestas realizads son hombre: "), cantidad hombre
+        llamar nueva_linea 
+        escriba ("de encuesta realizadas son mujer: "), cantidadmujer
+        
+        
+        FIN
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

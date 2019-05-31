@@ -1,0 +1,28 @@
+
+INICIO
+
+escriba("seleccione una opcion del menu ")
+llamar nueva_linea
+llamar nueva_linea
+escriba("1.primera generacion")
+llamar nueva_linea
+
+escriba ("2.segunda generacion")
+llamar nueva_linea
+escriba("3.tercera generacion")
+llamar nueva_linea
+escriba("4.cuarta generacion")
+llamar nueva_linea
+escriba("5.quinta generacion")
+llamar nueva_linea
+escriba("6.sexta generacion ")
+llamar nueva_linea
+escriba("7.memorias")
+llamar nueva_linea
+escriba ("8.procesadores")
+llamar nueva_linea
+escriba ("9.tarjeta madre")
+llamar nueva_linea
+escriba("10.unidades almacenamiento")
+FIN
+

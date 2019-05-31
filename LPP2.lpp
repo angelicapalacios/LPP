@@ -1,0 +1,26 @@
+Cadena [50] nombre
+Real cantidad, precio, descuento
+
+
+INICIO
+
+    escriba("¿Cual es el nombre del producto ?")
+    lea nombre 
+    
+    escriba ("¿cual es el precio del producto ?")
+    lea precio
+    
+    Escriba("¿cual es la cantidad del producto ?")
+    lea cantidad
+    
+    
+    si(cantidad>=10)entonces
+    escriba("recibe el 3% de descuento")
+    
+    sino 
+    escriba ("no hay descuento")
+    
+fin si
+
+Fin 
+    
